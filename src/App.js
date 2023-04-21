@@ -1,6 +1,6 @@
 import React from 'react'
-
-const Notepad = () => {
+import './App.css';
+const App = () => {
 
 const [text, settext] = React.useState('')
 const [array, setarray] = React.useState([])
@@ -54,7 +54,7 @@ const handeldelete=(index)=>{
   )
 }
 
-export default Notepad
+export default App
 
 
 
